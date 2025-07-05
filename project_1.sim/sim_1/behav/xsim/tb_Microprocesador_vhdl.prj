@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../Component/ALU.vhd" \
+"../../../../project_1.srcs/sources_1/new/Acumulador.vhd" \
+"../../../../../../Component/BancoRegistros.vhd" \
+"../../../../../../Component/Contador_20Bits.vhd" \
+"../../../../../../Component/Contador_B.vhd" \
+"../../../../../../Component/ROM.vhd" \
+"../../../../../../Component/Registro16.vhd" \
+"../../../../../../Component/decodificador.vhd" \
+"../../../../../../MicroInd/MicroInd.srcs/sources_1/new/Microprocesador.vhd" \
+"../../../../../../MicroInd/MicroInd.srcs/sources_1/new/Microprocesador_tb.vhd" \
+
+# Do not sort compile order
+nosort

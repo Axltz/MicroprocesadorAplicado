@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_Microprocesador_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_Microprocesador" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="142.500 ns"></ZoomStartTime>
+      <ZoomEndTime time="688.501 ns"></ZoomEndTime>
+      <Cursor1Time time="524.500 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="59"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="29" />
+   <wvobject fp_name="/tb_Microprocesador/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/set_pc" type="logic">
+      <obj_property name="ElementShortName">set_pc</obj_property>
+      <obj_property name="ObjectShortName">set_pc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/sensor_Humedad" type="array">
+      <obj_property name="ElementShortName">sensor_Humedad[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sensor_Humedad[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/sensor_Luz" type="array">
+      <obj_property name="ElementShortName">sensor_Luz[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sensor_Luz[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/sensor_Temperatura" type="array">
+      <obj_property name="ElementShortName">sensor_Temperatura[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sensor_Temperatura[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/pc_fin" type="array">
+      <obj_property name="ElementShortName">pc_fin[4:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_fin[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/Ciclo" type="array">
+      <obj_property name="ElementShortName">Ciclo[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Ciclo[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/instr" type="array">
+      <obj_property name="ElementShortName">instr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">instr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/mar_out" type="array">
+      <obj_property name="ElementShortName">mar_out[4:0]</obj_property>
+      <obj_property name="ObjectShortName">mar_out[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/Gpr_out" type="array">
+      <obj_property name="ElementShortName">Gpr_out[8:0]</obj_property>
+      <obj_property name="ObjectShortName">Gpr_out[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/alu_result" type="array">
+      <obj_property name="ElementShortName">alu_result[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_result[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/buss" type="array">
+      <obj_property name="ElementShortName">buss[8:0]</obj_property>
+      <obj_property name="ObjectShortName">buss[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/pc_out_internal" type="array">
+      <obj_property name="ElementShortName">pc_out_internal[4:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_out_internal[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/mar_out_internal" type="array">
+      <obj_property name="ElementShortName">mar_out_internal[4:0]</obj_property>
+      <obj_property name="ObjectShortName">mar_out_internal[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/rom_out_internal" type="array">
+      <obj_property name="ElementShortName">rom_out_internal[8:0]</obj_property>
+      <obj_property name="ObjectShortName">rom_out_internal[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/opc_internal" type="array">
+      <obj_property name="ElementShortName">opc_internal[2:0]</obj_property>
+      <obj_property name="ObjectShortName">opc_internal[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/registro_total_internal" type="array">
+      <obj_property name="ElementShortName">registro_total_internal[8:0]</obj_property>
+      <obj_property name="ObjectShortName">registro_total_internal[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/alu_res_internal" type="array">
+      <obj_property name="ElementShortName">alu_res_internal[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_res_internal[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/ciclo_pulsos_internal" type="array">
+      <obj_property name="ElementShortName">ciclo_pulsos_internal[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ciclo_pulsos_internal[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/en_pc_internal" type="logic">
+      <obj_property name="ElementShortName">en_pc_internal</obj_property>
+      <obj_property name="ObjectShortName">en_pc_internal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/en_mar_internal" type="logic">
+      <obj_property name="ElementShortName">en_mar_internal</obj_property>
+      <obj_property name="ObjectShortName">en_mar_internal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/en_gpr_internal" type="logic">
+      <obj_property name="ElementShortName">en_gpr_internal</obj_property>
+      <obj_property name="ObjectShortName">en_gpr_internal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/en_alu_internal" type="logic">
+      <obj_property name="ElementShortName">en_alu_internal</obj_property>
+      <obj_property name="ObjectShortName">en_alu_internal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/acumulador_out_debug" type="array">
+      <obj_property name="ElementShortName">acumulador_out_debug[3:0]</obj_property>
+      <obj_property name="ObjectShortName">acumulador_out_debug[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/salida_aspersor" type="logic">
+      <obj_property name="ElementShortName">salida_aspersor</obj_property>
+      <obj_property name="ObjectShortName">salida_aspersor</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/salida_luz" type="logic">
+      <obj_property name="ElementShortName">salida_luz</obj_property>
+      <obj_property name="ObjectShortName">salida_luz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/salida_clima" type="logic">
+      <obj_property name="ElementShortName">salida_clima</obj_property>
+      <obj_property name="ObjectShortName">salida_clima</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_Microprocesador/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>
